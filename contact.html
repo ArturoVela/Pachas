@@ -498,7 +498,21 @@
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
-
+    <script>
+        // Guardar el título original
+        var originalTitle = document.title;
+    
+        // Detectar cuando la pestaña cambia de estado visible a no visible
+        document.addEventListener('visibilitychange', function() {
+          if (document.visibilityState === 'hidden') {
+            // Si la pestaña está oculta, cambiar el título
+            document.title = "Tu café te espera...";
+          } else {
+            // Si la pestaña está visible, restaurar el título original
+            document.title = originalTitle;
+          }
+        });
+      </script>
 
     <script src="js/jquery.js"></script>
     <script src="js/popper.min.js"></script>
