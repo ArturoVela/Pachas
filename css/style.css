@@ -84,9 +84,9 @@
 ====================================================================
 
  ***/
-:root {
-  --thm-font: "Teko", sans-serif;
-  --thm-b-font: "Rubik", sans-serif;
+ :root {
+  --thm-font: "Montserrat", sans-serif;
+  --thm-b-font: "Montserrat", sans-serif; /* Cambiado a Montserrat */
   --thm-base: #005650;
   --thm-base-rgb: 0, 85, 81;
   --thm-black: #222429;
@@ -104,7 +104,7 @@
 }
 
 body {
-  font-size: 16px;
+  font-size: 14px;
   font-family: var(--thm-b-font);
   color: var(--thm-text);
   line-height: 2.125em;
@@ -2262,6 +2262,7 @@ img.lazy-image.loaded {
   color: #ffffff;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+  font-size: 16px;
 }
 
 .banner-section .left-based-text .social-links ul li a:before {
@@ -2672,7 +2673,7 @@ img.lazy-image.loaded {
 
 .banner-carousel .content-box h1 {
   display: block;
-  font-size: 140px;
+  font-size: 100px;
   line-height: 0.85em;
   color: #ffffff;
   font-weight: 600;
@@ -3919,6 +3920,12 @@ img.lazy-image.loaded {
   margin-bottom: 35px;
 }
 
+
+.sec-title h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
 .about-section .text-column .sec-title .lower-text {
   text-transform: uppercase;
   font-size: 26px;
@@ -4228,6 +4235,7 @@ img.lazy-image.loaded {
 .live-section .main-image-box .title h3 {
   text-transform: uppercase;
   line-height: 1em;
+  font-size: 45px;
 }
 
 .live-section .main-image-box .more-link {
@@ -5128,6 +5136,7 @@ img.lazy-image.loaded {
   color: #fff;
 }
 
+
 .trusted-section .feature h5 {
   font-weight: 400;
   margin: 0;
@@ -5196,6 +5205,11 @@ img.lazy-image.loaded {
   border-radius: 7px;
 }
 
+
+.trusted-section .sec-title h2 {
+  font-size: 40px;
+}
+
 .trusted-section .featured-block-two .text {
   position: relative;
   top: -5px;
@@ -5239,6 +5253,7 @@ img.lazy-image.loaded {
   background: none;
   z-index: 2;
 }
+
 
 .team-section.no-padd-top {
   padding-top: 0;
@@ -5993,7 +6008,6 @@ img.lazy-image.loaded {
   left: 0;
   top: 0;
   width: 242px;
-  border-radius: 50%;
 }
 
 .agency-section .featured-block-two .image img {
@@ -6002,7 +6016,7 @@ img.lazy-image.loaded {
   
   
   
-  border-radius: 50%;
+  border-radius: 10px;
 }
 
 .agency-section .featured-block-two .text {
