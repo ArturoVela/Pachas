@@ -355,6 +355,8 @@ figure {
   transform: skewX(0deg);
 }
 
+
+
 /*Btn Style Two*/
 .btn-style-two {
   position: relative;
@@ -639,6 +641,7 @@ img {
   position: relative;
   float: left;
   padding: 34px 0px;
+  
 }
 
 .main-header .other-links .link-box .link {
@@ -1318,6 +1321,46 @@ img {
 .header-style-seven .main-menu .navigation li>a>span {
   top: 0;
 }
+
+/* header llamada*/
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  display: block;
+  align-items: center;
+  font-size: 36px;
+  margin-left: 105px;
+}
+
+.phone-link, .whatsapp-link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.phone-link i, .whatsapp-link i {
+  margin-right: 5px;
+  font-size: 25px;
+  color: #fff
+}
+
+.phone-link i {
+  color: var(--thm-base);
+}
+
+.phone-link:hover, .whatsapp-link:hover {
+  color: var(--thm-base);
+}
+
+
+
+
 
 /* cart btn */
 .main-header .other-links {
@@ -2736,6 +2779,15 @@ img.lazy-image.loaded {
   opacity: 0;
   -webkit-transform: translateY(50px);
   transform: translateY(50px);
+  
+}
+.link-boxx{
+display: flex; /* Usar flexbox para alinear los elementos */
+justify-content: center; /* Centra horizontalmente el contenido */
+align-items: center; /* Centra verticalmente si es necesario */
+text-align: center; /* Asegura que el texto dentro esté centrado */
+margin: 0 auto; /* Asegura que el contenedor se centre en su espacio */
+margin-bottom: 40px;
 }
 
 .banner-three .banner-carousel .content-box .link-box {
@@ -4050,9 +4102,11 @@ img.lazy-image.loaded {
 ***/
 .live-section {
   position: relative;
-  padding: 120px 0px 0px;
+  padding: 50px 0px 150px;
   background: #ffffff;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;  
+
 }
 
 .live-section__one-page {
@@ -4077,14 +4131,12 @@ img.lazy-image.loaded {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  
-  
-  
 }
 
 .live-section .main-image-box .inner {
   position: relative;
   padding: 20px 0px;
+  
 }
 
 .live-section .main-image-box .round-box {
@@ -4095,6 +4147,7 @@ img.lazy-image.loaded {
   width: 490px;
   height: 490px;
   border-radius: 50%;
+  
 }
 
 .live-section .main-image-box .round-box:before {
@@ -4107,6 +4160,7 @@ img.lazy-image.loaded {
   background: var(--thm-black);
   opacity: 0.2;
   border-radius: 50%;
+  
 }
 
 .live-section .main-image-box .round-inner {
@@ -4117,6 +4171,7 @@ img.lazy-image.loaded {
   padding: 190px 80px 50px 70px;
   background: var(--thm-base);
   border-radius: 50%;
+  
 }
 
 .live-section .main-image-box .vid-link {
@@ -4134,6 +4189,7 @@ img.lazy-image.loaded {
   -webkit-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
+  
 }
 
 .live-section .main-image-box .vid-link .icon {
@@ -4152,6 +4208,7 @@ img.lazy-image.loaded {
   -webkit-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
+  
 }
 
 .live-section .main-image-box .vid-link a:hover .icon {
@@ -5249,7 +5306,7 @@ img.lazy-image.loaded {
 .team-section {
   margin-top: 50px;
   position: relative;
-  padding: 120px 0px 90px;
+  padding: 120px 0px 0px;
   background: none;
   z-index: 2;
 }
@@ -5302,7 +5359,7 @@ img.lazy-image.loaded {
 .team-block .image-box .social-links {
   position: absolute;
   left: 0;
-  bottom: 35px;
+  bottom: 170px;
   width: 100%;
   padding: 0px 5px;
   opacity: 0;
@@ -5327,11 +5384,13 @@ img.lazy-image.loaded {
 
 .team-block .image-box .social-links li a {
   position: relative;
-  display: block;
-  width: 44px;
-  height: 44px;
-  line-height: 44px;
-  font-size: 16px;
+  display: flex;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 60px;
+  align-items: center;
+  justify-content: center;
   background: #ffffff;
   color: var(--thm-black);
   border-radius: 50%;
@@ -23913,7 +23972,7 @@ img.lazy-image.loaded {
   max-width: 100%;
   border-radius: 8px;
   position: relative;
-  mix-blend-mode: luminosity;
+  mix-blend-mode: normal;
 }
 
 .process-one .sec-title {
