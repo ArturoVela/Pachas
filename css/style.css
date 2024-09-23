@@ -16788,6 +16788,11 @@ margin-bottom: 40px;
   }
 }
 
+.custom-rounded {
+  border-radius: 10px; /* Ajusta el valor para redondear más o menos */
+}
+
+
 .history-timeline__year {
   width: 85px;
   height: 85px;
