@@ -5769,17 +5769,29 @@ margin-bottom: 40px;
   display: inline-block;
 }
 
-.sponsors-outer .image-box img {
-  max-width: 100%;
-  width: auto;
-  display: inline-block;
-  transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  opacity: 0.2;
+/* Ajusta el tamaño de la imagen y la desplaza a la derecha */
+.sponsors-section-two .image-box {
+  display: flex; /* Utiliza Flexbox para el control de posición */
+  justify-content: flex-end; /* Empuja la imagen hacia la derecha */
+  max-width: 100%; /* Asegura que el contenedor use todo el espacio disponible */
 }
+
+/* Ajusta la imagen para que mantenga un buen tamaño y se alinee a la derecha */
+.sponsors-section-two .image-box img {
+  width: 100%; /* Asegura que la imagen ocupe el espacio completo de su contenedor */
+  max-width: 500px; /* Ajusta el tamaño máximo según lo deseado */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block;
+  margin: 0; /* Elimina márgenes que puedan afectar la posición */
+}
+
+/* Ajusta el contenedor de la imagen para darle más espacio */
+.sponsors-section-two .logo-block {
+  flex: 0 0 100%; /* Permite que el contenedor ajuste su tamaño automáticamente */
+  max-width: 100%; /* Asegura que el contenedor no esté restringido */
+}
+
+
 
 .sponsors-outer .image-box img:hover {
   opacity: 1;
