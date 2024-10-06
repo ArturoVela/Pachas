@@ -3615,11 +3615,19 @@ margin-bottom: 40px;
   margin-bottom: 50px;
 }
 
+.sec-titlee {
+  font-size: 10px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
 .sec-title.centered {
   max-width: 650px;
   margin: 0 auto;
   margin-bottom: 50px;
 }
+
+
 
 .sec-title .upper-text {
   position: relative;
@@ -3631,12 +3639,33 @@ margin-bottom: 40px;
   margin: 0 0 20px;
 }
 
+.sec-titlee .upper-text {
+  position: relative;
+  display: inline-block;
+  line-height: 1.6em;
+  font-size: 11px;
+  color: #9b9fa6;
+  font-weight: 100;
+  margin: 0 0 20px;
+}
+
 .sec-title h2 {
   position: relative;
   display: block;
   font-size: 70px;
   line-height: 0.9em;
   text-transform: uppercase;
+  color: var(--thm-black);
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+
+.sec-titlee h2 {
+  position: relative;
+  display: block;
+  font-size: 40px;
+  line-height: 0.9em;
   color: var(--thm-black);
   font-weight: 400;
   margin-bottom: 0px;
@@ -3655,6 +3684,25 @@ margin-bottom: 40px;
   position: relative;
   display: block;
   font-size: 16px;
+  line-height: 2.125em;
+  font-weight: 400;
+  color: var(--thm-text);
+  padding: 30px 0px 0px;
+}
+
+.sec-titlee h2 strong {
+  font-weight: 700;
+}
+
+.sec-titlee h2 .dot {
+  color: var(--thm-base);
+  padding-left: 7px;
+}
+
+.sec-titlee .lower-text {
+  position: relative;
+  display: block;
+  font-size: 11px;
   line-height: 2.125em;
   font-weight: 400;
   color: var(--thm-text);
@@ -26624,3 +26672,4 @@ margin-bottom: 40px;
 .megamenu-popup-active .main-header .header-upper .logo-box {
   display: none;
 }
+
